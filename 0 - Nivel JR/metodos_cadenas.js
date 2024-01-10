@@ -23,5 +23,17 @@ resultado = cadena4.repeat(4) // Repite la cadena la cantidad de veces indicada
 
 resultado = cadena.split(" "); // Separa una cadena con lo indicado, y retorna un array
 
+resultado = cadena.toLowerCase() // Convertir cadena a minúsculas
+
+resultado = cadena.toUpperCase() // Convertir cadena a mayúsculas
+
+let num = 50;
+resultado = num.toString(); // Convierte una cadena a string (aplicar a números)
+
+let nombre = "   juan   "
+resultado = nombre.trim(); // Eliminar los espacios de una cadena
+// trimStart elimina los espacios del principio
+// trimEnd elimina los espacios del final
+
 
 console.log(resultado);
