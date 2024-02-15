@@ -4,8 +4,6 @@ function validar_cliente(time){
     let edad = prompt("¿Cual es tu edad?: ");
 
     if(edad >= 18){
-        // alert("Sos mayor de edad, podés pasar.");
-
         if(time >= 2 && time < 7 && !free){
             alert("Podés pasar gratis, porque sos la primer persona después de las 2am")
             free = true
